@@ -257,4 +257,19 @@ footer {
     top: 110px;
     /*background-color: rgb(247, 205, 199);*/
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .smedia{
+    border: 2px blue solid;
+    width: 200px;
+}
+footer .contact{
+    border: 2px red solid;
+    width: 200px;
+}
+footer .saltlogo{
+    border: 2px purple solid;
+    width: 200px;
 }
